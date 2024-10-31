@@ -1,11 +1,12 @@
-using CategoryApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using CategoryApp.Models;
 
-namespace CategoryApp.Controllers
+namespace CategoryApp.Pages.Category
 {
-    public class CategoryController : Controller
+    public class IndexModel : PageModel
     {
-        private readonly List<Category> categories =
+        private readonly List<PCategory> categories =
         [
             new () { Id = 1, Name = "Dog", Description = "Loyal and friendly companion"  },
             new () { Id = 2, Name = "Cat", Description = "Independent and playful" },
@@ -13,10 +14,11 @@ namespace CategoryApp.Controllers
             new () { Id = 4, Name = "Fish", Description = "Quiet, easy-care pet"},
             new () { Id = 5, Name = "Rabbit", Description = "Gentle and soft-furred" }
         ];
+        public required List<PCategory> Categories { get; set; }
 
-        public IActionResult Index()
+        public void OnGet()
         {
-            return View(categories);
+            Categories = categories;
         }
     }
 }

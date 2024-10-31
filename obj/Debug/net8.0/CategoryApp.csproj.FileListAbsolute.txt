@@ -28,3 +28,4 @@ C:\Users\hoannguyen1\CategoryApp\obj\Debug\net8.0\refint\CategoryApp.dll
 C:\Users\hoannguyen1\CategoryApp\obj\Debug\net8.0\CategoryApp.pdb
 C:\Users\hoannguyen1\CategoryApp\obj\Debug\net8.0\CategoryApp.genruntimeconfig.cache
 C:\Users\hoannguyen1\CategoryApp\obj\Debug\net8.0\ref\CategoryApp.dll
+C:\Users\hoannguyen1\CategoryApp\obj\Debug\net8.0\CategoryApp.sourcelink.json

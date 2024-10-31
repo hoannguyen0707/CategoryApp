@@ -1,0 +1,25 @@
+﻿@page
+@model CategoryApp.Pages.Category.IndexModel
+@{
+    ViewData["Title"] = "Pet Categories";
+}
+
+<table class="table table-striped table-bordered table-hover mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>Category ID</th>
+            <th>Category Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model.Categories)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+                <td>@category.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>

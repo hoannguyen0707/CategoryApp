@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hoannguyen1\CategoryApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/hoannguyen1/CategoryApp/Views/Category/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+[C:/Users/hoannguyen1/CategoryApp/Pages/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoannguyen1/CategoryApp/Pages/Hello.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGVsbG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hoannguyen1/CategoryApp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hoannguyen1/CategoryApp/Views/Home/Index.cshtml]
